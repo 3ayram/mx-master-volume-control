@@ -57,3 +57,18 @@ sudo systemctl enable --now mouse-volume.service
 
 ## Lisans
 MIT
+
+## Yeni Özellik: Monitörler Arası Pencere Taşıma
+
+Artık farenin 'Forward' (İleri) tuşuna basarak aktif pencereyi monitörler arasında zıplatabilirsiniz.
+
+### Kurulum
+1. \`mouse_windowchange.py\` dosyasını indirin.
+2. \`mouse-window.service\` dosyasını oluşturun ve başlatın:
+\`\`\`bash
+sudo systemctl enable --now mouse-window.service
+\`\`\`
+
+### Gereksinimler
+- KDE Plasma 6 (qdbus6)
+- \`qt6-declarative\` paketi
