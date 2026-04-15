@@ -1,3 +1,5 @@
+![MX Master 2S](mouse.png)
+
 # MX Master 2S Side Wheel Volume Control
 
 Linux üzerinde Logitech MX Master 2S farenin yan tekerleğini (thumb wheel) sistem ses seviyesi kontrolü için eşleyen Python tabanlı bir otomasyon servisidir.
